@@ -1,0 +1,13 @@
+hammer
+look 14
+take 19
+actions_end
+board 16
+crack 17
+acceptors_end
+
+key
+look 15
+actions_end
+door 18
+acceptors_end

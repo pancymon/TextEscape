@@ -1,0 +1,9 @@
+11
+What code do you want to try?
+1234
+content The safe is open. There is a key lies in it.
+reveal key
+consume safe_open
+content_end
+content The code is not right. Nothing happened.
+puzzle_end

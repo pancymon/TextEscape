@@ -1,0 +1,111 @@
+//This is a test of commentation.
+2
+hammer_taken
+content You are facing the south wall.
+content_end
+content You are facing the south wall. There is a hammer there.
+reveal hammer
+content_end
+
+3
+dark
+content You are facing the east wall.
+content There is a lamp here with light just dim enough to see.
+reveal lamp
+content_end
+content You are facing the east wall.
+content There is a lamp here keeping the room lit.
+reveal lamp
+content_end
+
+4
+west_broken
+content You are facing the west wall. There is a hole on the wall.
+reveal hole
+eliminate board
+content_end
+content You are facing the west wall.
+content There is a small part of the wall that is boarded up.
+reveal board
+content_end
+
+5
+door_open
+content You leave the room. You win! 
+content Congratulations!
+content_end
+content It's locked. Of course it's not that easy.
+content_end
+
+6
+door_open
+content The door is unlocked. You are free to leave now.
+content_end
+content Seems like the door is locked. There is a key hole in it.
+content_end
+
+7
+dark
+content You brighten the light. It is much easier to see now.
+change dark
+content_end
+content You dim the lamp.
+content The room becomes very dark, but you still can see.
+change dark
+content_end
+
+8
+dark
+content The lamp is very dim. You can light it up if you want.
+content_end
+content The lamp is glowing brightly. You can't turn it off.
+content However, you can dim it almost completely.
+content_end
+
+9
+crack_broken
+content There is a safe there.
+reveal safe
+content_end
+content There seems to be something behind the crack.
+content_end
+
+10
+safe_open
+content The safe is open.
+content_end
+content The safe is locked up tight. You'll need a code to open it.
+content_end
+
+13
+dark
+content There is something in the hole, but it's too dark to see.
+content_end
+content You see some numbers, 1234.
+content_end
+
+17
+crack_broken
+content You can't do that. The wall is already broken.
+content_end
+content The wall is broken with the crack enlarged. 
+content There is a safe behind it.
+reveal safe
+consume crack_broken
+content_end
+
+18
+dark
+content It's too dark. You cannot find the key hole.
+content_end
+content It worked. The door is unlocked.
+change door_open
+content_end
+
+100
+dark
+content With the lights dimmed,
+content there seems to be a crack on the wall that glows lightly.
+reveal crack
+content_end
+content_end

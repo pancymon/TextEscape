@@ -1,0 +1,42 @@
+north
+look 1
+object_end
+
+south
+look 2 100
+object_end
+
+east
+look 3
+object_end
+
+west
+look 4
+object_end
+
+door
+use 5
+look 6
+object_end
+
+lamp
+use 7
+look 8
+object_end
+
+board
+look 12
+object_end
+
+hole
+look 13
+object_end
+
+crack
+look 9
+object_end
+
+safe
+look 10
+use 11
+object_end

@@ -1,0 +1,61 @@
+-1
+content To make a command, follow this pattern:
+content "verb" the "noun" with the "noun"
+content If you want to look at something, just type "look at the..."
+content There are four walls to look at, north, south, east, west
+content For example, you can type "look at the north wall"
+content Type "i" or "inventory" to see what items you have
+content The verbs you can use are: use, look, take
+content If your sentence does not work, try rephrasing
+content For starters, why not try "look at the north wall" and then "use the door"?
+content Good luck and I hope you enjoy the game!
+content_end
+
+0
+content You are in a square room and surrounded by walls.
+reveal north
+reveal east
+reveal west
+reveal south
+content_end
+
+1
+content You are facing the north wall. There is a door there.
+content It seems to be the only way out of this room.
+content Maybe you should try to "use" it?
+reveal door
+content_end
+
+12
+content The board is nailed to the wall.
+content You cannot pry them open with bear hands.
+content_end
+
+14
+content It's a common hammer. It could come in handy some time.
+content_end
+
+15
+content It's a common key. Could this be it?
+content_end
+
+16
+content You tear down the board. There is a hole on the wall.
+reveal hole
+change west_broken
+content_end
+
+
+
+19 
+change hammer_taken
+content_end
+
+98
+content It doesn't work.
+content_end
+
+99
+content The safe is open. There is a key in it.
+reveal key
+content_end
